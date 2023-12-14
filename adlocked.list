@@ -120,7 +120,7 @@ DOMAIN,iadmat.nosdn.127.net
 DOMAIN,iadmatapk.nosdn.127.net
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmusicmatvideo.music.126.net
-#DOMAIN-SUFFIX,163jiasu.com,extended-matching
+DOMAIN-SUFFIX,163jiasu.com,extended-matching
 DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN,sdkconfig.ad.xiaomi.com
 DOMAIN,acs4baichuan.m.taobao.com
@@ -155,5 +155,5 @@ DOMAIN,sugar.zhihu.com
 DOMAIN-SUFFIX,m1.ad.10010.com
 DOMAIN,zxid-m.mobileservice.cn
 IP-CIDR,103.41.167.237/32,no-resolve
-#IP-CIDR,118.89.204.198/32,no-resolve
+IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve

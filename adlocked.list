@@ -152,7 +152,7 @@ DOMAIN,crash2.zhihu.com
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
 # > 中国联通
-HOST-SUFFIX,m1.ad.10010.com
+DOMAIN-SUFFIX,m1.ad.10010.com
 DOMAIN,zxid-m.mobileservice.cn
 IP-CIDR,103.41.167.237/32,no-resolve
 #IP-CIDR,118.89.204.198/32,no-resolve

@@ -4,7 +4,7 @@
 #!date=2023-12-14 21:08:00
 
 [MITM]
-bk.bingo.qq.com,btrace.qq.com,tc.qq.com,webcdn.m.qq.com,
+hostname=bk.bingo.qq.com,btrace.qq.com,tc.qq.com,webcdn.m.qq.com,
 
 
 [URL Rewrite]

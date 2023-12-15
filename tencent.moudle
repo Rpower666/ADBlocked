@@ -1,0 +1,49 @@
+#!name=广告拦截合集-重写
+#!desc=(R)针对部分APP开屏广告，应用内广告进行拦截，某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!author=fmz200
+#!date=2023-12-14 21:08:00
+
+[MITM]
+bk.bingo.qq.com,btrace.qq.com,tc.qq.com,webcdn.m.qq.com,
+
+
+[URL Rewrite]
+# > 腾讯广告
+^https?:\/\/btrace\.qq\.com data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/imgcache\.qq\.com\/qqlive\/ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/mtteve\.beacon\.qq\.com\/analytics data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
+
+^https?://bk\.bingo\.qq\.com/bk/crx/data/videoAd.*$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+# 去开屏广告 需要重装
+^https:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"

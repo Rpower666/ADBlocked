@@ -3,6 +3,6 @@
 IP-CIDR,59.111.19.99/32,no-resolve
 IP-CIDR,183.136.182.20/32,no-resolve 
 IP-CIDR,115.238.119.69/32,no-resolve 
-
+IP-CIDR,59.111.160.197/32,no-resolve
 //解锁灰色歌单
 DOMAIN-SUFFIX,interface3.music.163.com

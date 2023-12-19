@@ -1,3 +1,5 @@
+#微信
+DOMAIN-SUFFIX, c.wechat.jx.cn
 # >  腾讯
 DOMAIN-SUFFIX, news.ssp.qq.com, 
 DOMAIN-SUFFIX, news.l.qq.com, 
